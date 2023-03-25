@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+
+    <style>
+
+        body {
+    background-image: url(images/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+        
+        .content h1{
+    size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.content p{
+    size: 20px;
+    color: #0c1650;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+ .content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.competitions .p{
+    text-align: right;
+    size: 20px;
+    color: #6a7199;
+    }
+    .competitions h1{
+    size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+    }
+    .competitions{
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 10%;
+    color: #aa0404;
+    
+    }
+
+    @media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+         }
+    }
+
+    .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    }
+
+    
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <a href="" class="btn">GLORY GLORY MANCHESTER UNITED</a>
+        <h1>My Hobby is watching and playing Football<br> and act outside the box</h1>
+        <p>As per me, no other sport thrills as soccer<br>
+            Football is very Addictive and it is so enjoyable that you are able<br>
+             to gain some experience and practise them on the pitch and show your class<br></p>
+
+             <div class="media">
+                     <video width="320" height="240" autoplay muted>
+                         <source src="videos/Top 10 Goals of 2022 🤩 _ Garnacho, Sancho, Rashford & More.mp4" type="video/mp4">
+                    </video>
+                    <audio controls autoplay muted>
+                      <source src="audio/[LYRICS] Glory glory Man United - Manchester United Theme Song.mp3" type="audio/mpeg">
+                     </audio>
+            </div>
+    </div>
+
+    <div class="competitions">
+
+
+        <h1>Competitions</h1>
+        <p>
+            The best competition in the football world is the UEFA Champions League(UCL)<br>
+            The  UCL consists of the Top 4 teams across the different leagues like Bundelsliga,
+            premier league, Serie A, Laliga, League 1.
+
+        </p>
+        <audio controls autoplay muted>
+            <source src="audio/UEFA Champions League Anthem- Lyrics.mp3" type="audio/mpeg">
+          </audio>
+
+        
+    </div>
+    <div class="column">
+        <p>Are you a Manchester United Fan? leave behind your Details then:</p>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your  first name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="age">Age</label>
+          <input type="text" id="age" name="supporter's age" placeholder="Your age..">
+          <label for="age">Gender</label>
+          <input type="text" id="gender" name="gender" placeholder="Your gender..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="malawi">Malawi</option>
+              <option value="England">England</option>
+              <option value="Spain">Spain</option>
+          </select>
+
+           
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
